@@ -1,10 +1,8 @@
-# DATA_310_Lab2
-
 ## Question 1
 This question requires the application of Chebyschev's Theorem. Regardless of the distribution of the data, this theorem allows you to calculate the minimum percentage of the population that will be contained within *k* standard deviation around the mean. The theorem relies on the following formula:
 ![Formula](formula.png)
 
-#### Applying this Formula in Code:
+##### Applying this Formula in Code:
 
     k = 8
     (1-1/(k*k))*100
@@ -20,7 +18,7 @@ By definition, a z-score is the number of standard deviations a data value is ab
 
 A z-score can be a useful tool because they do not have a physical unit. Therefore, it can allow for easier omparisons between two variables that lie on vastly different scales (such as height and income).
 
-#### Applying this Formula in Code:
+##### Applying this Formula in Code:
 
     mpg = data.mpg.values
     zs = (18.1-np.mean(mpg))/np.std(mpg)
